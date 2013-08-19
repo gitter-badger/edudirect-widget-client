@@ -6,9 +6,9 @@ WordPress plugin to embed the EDUDirect Widget via [shortcodes][5].
 
 # Requirements
 
-1. [Bower][1]
+1. [Bower][1] v1.2+
 2. [PHP][2] v5.3+
-3. [WordPress][3] 3.x
+3. [WordPress][3] 3.6+
 
 
 # Installation
@@ -20,6 +20,11 @@ If your project does not use [Bower][1] yet, initialize it:
 Choose a [release version][4], and plug it in:
 
     $ bower install --save git@github.com:CMN/wp-edudirect-widget.git\#~0.0.1
+
+Now symlink the plugin into the WordPress `plugins` directory:
+
+    $ cd path/to/plugins
+    $ ln -s ../../../bower_components/wp-edudirect-widget/wp-edudirect-widget
 
 
 # Usage

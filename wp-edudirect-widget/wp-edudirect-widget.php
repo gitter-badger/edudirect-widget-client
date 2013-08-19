@@ -6,9 +6,9 @@
  * Description: WordPress shortcode to implement the EDUDirect Widget
  * Author: Eric Clemmons
  * Author URI: https://github.com/ericclemmons
- * Version: 0.0.1
+ * Version: 0.0.4
  */
 
-require_once( plugin_dir_path( __FILE__ ) . 'edudirect-widget.php' );
+require_once( plugin_dir_path( __FILE__ ) . 'EdudirectWidget.php' );
 
 EdudirectWidget::init();
