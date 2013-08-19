@@ -46,7 +46,8 @@ class EdudirectWidget
 
     public function enqueue()
     {
-        $script_uri = plugins_url( 'scripts/QuickDegreeFinder.jquery.js', __FILE__ );
+        $plugin     = sprintf( '%s/%s/%s', WP_PLUGIN_DIR, basename( __DIR__ ), basename( __FILE__ ) );
+        $script_uri = plugins_url( 'scripts/QuickDegreeFinder.jquery.js', $plugin );
 
         wp_enqueue_script( 'edudirect_widget', $script_uri, array('jquery'), static::VERSION, true );
 
