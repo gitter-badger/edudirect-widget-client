@@ -27,6 +27,10 @@ Now symlink the plugin into the WordPress `plugins` directory:
     $ ln -s ../../../bower_components/wp-edudirect-widget/wp-edudirect-widget
 
 
+If you'd like to auto-activate this plugin (among others), you can use
+Eric Clemmons' [Auto-Activate WordPress Plugin Script][6].
+
+
 # Usage
 
 Within posts, use the [shortcode][5] directly:
@@ -77,3 +81,4 @@ Defaulted Selections:
 [3]: http://wordpress.org/
 [4]: https://github.com/CMN/wp-edudirect-widget/releases
 [5]: http://codex.wordpress.org/Shortcode_API
+[6]: https://gist.github.com/ericclemmons/6275346
