@@ -1,6 +1,8 @@
 WordPress EDUDirect Widget
 ==========================
 
+[![Join the chat at https://gitter.im/CMN/edudirect-widget-client](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/CMN/edudirect-widget-client?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 WordPress plugin to embed the EDUDirect Widget via [shortcodes][5].
 
 
